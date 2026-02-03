@@ -104,5 +104,5 @@ puts "companies: #{Company.all.count}" # companies: 2
 
 expected_count_of_comapnies = 2
 if expected_count_of_comapnies != Company.all.count
-  puts "!!!!! ERROR !!!!!"
+  puts "!!!!! ERROR !!!!!" #you can use raise instead of "puts" to make it more barulhento
 end
