@@ -11,6 +11,11 @@ Contact.destroy_all
 # - Insert and read contact data for companies in the database
 
 # 1. insert new rows in the contacts table with relationship to a company
+ #This is the part of the code that will help us to understand if the code is running well or not
+#expected_count_of_contacts = 3
+#if expected_count_of_contacts != Contact.all.count
+ # raise "ALERT!!!"
+#end
 
 # first query to find the row in companies for Apple
 apple = Company.find_by({ "name" => "Apple" })
