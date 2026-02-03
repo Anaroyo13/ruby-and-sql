@@ -11,7 +11,9 @@
 # - Add model and table for the Company entity in our domain model
 
 # 1. in terminal, generate the model and table for Company
-# rails generate model _____
+# rails generate model _____ (e.g.Company -> rails generate model Company)
+#  "  create    db/migrate/20260203150125_create_companies.rb"  -> this shows the code created for us to create per se de documento
+# "  create    app/models/company.rb" -> this shows where is the new document
 
 # 2. open newly generated files
 
